@@ -1,0 +1,255 @@
+*{
+    font-family: Roboto;
+}
+
+
+.footer {
+    color: grey;
+    text-align: center;
+}
+.logo-docplanner {height: 100px;
+width: 300px;}
+.link {color: grey;}
+.link:hover {color: turquoise;}
+ .main-nav {display: flex;
+justify-content: space-between;}
+.main-nav , .logo-docplanner {align-items: flex-start;}
+.teswira{margin-left: 200px;}
+.bangs{margin-right: 200px;
+justify-content: space-between;
+margin-top: 50px;
+text-decoration: none;}
+.main-header{position: sticky;}
+.lead__logo{margin-left: 700px;}
+.lyna {text-align: center;
+text-decoration: none;
+color: turquoise;}
+.sek{
+    color: grey;
+    text-align: center;
+    font-size: smaller;
+}
+.barr{text-decoration: none;}
+.lowel {
+color: grey;}
+.tobba{background-color: rgb(0, 106, 255);
+padding-top: 50px;
+margin-top: 20px;}
+
+.patient{display: flex;
+    background-color: aquamarine;
+padding-top: 50px;
+margin-top: 20px;}
+.clinic{display: flex;
+    background-color: black;
+padding-top: 50px;
+margin-top: 20px;}
+.tobba ,.clinic , .patient {justify-content: space-between;
+width: 25%;
+align-items: flex-start;
+border-radius: 25px;
+color: white;
+padding-bottom: 50px;
+padding-left: 10px;
+
+}
+.tobba:hover ,.clinic:hover , .patient:hover{box-shadow: 10px 10px rgba(47, 47, 47, 0.207);}
+.style-select{color: aqua;}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.glob {color: aquamarine;
+font-weight: normal;
+font-size:xx-large;
+display: flex;
+}
+.batata{color: aquamarine;
+text-align: center;}
+.fathi{color: grey;
+text-align:center;}
+
+.brands__logos{display: flex;}
+.glob , .brands__logos {justify-content: space-between;}
+.fth{font-size: xx-large;
+text-align: center;
+margin-top: 100px;}
+
+
+.office {display: flex;
+justify-content: space-between;
+border-radius: 25px;}
+.rangatou {
+    color: rgb(0, 255, 170);
+}
+.ali {
+    color: grey;
+}
+.office__desc{
+    text-decoration: none;
+    color: grey;
+
+}
+.ras{
+    border-radius: 5px;
+    background-color: rgb(60, 60, 238);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+   margin-left: 650px;
+   text-decoration: none;
+   margin-bottom: 100px;
+}
+.djej {
+    background-color: rgb(60, 60, 238);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    margin-left: 90px;
+    text-decoration: none;
+    
+}
+.ras:hover , .djej:hover{background-color: blue;
+color: white;
+text-decoration: none;}
+.khedma {display: grid;}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    margin: auto;
+    grid-row-gap: 25px;
+}
+.grid-item{
+    border-radius: 25px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.grid-item:hover{box-shadow: 10px 10px rgba(47, 47, 47, 0.207);}
+.grid-contaner {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+  }
+.grid-object{
+   
+
+    padding: 20px;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: end;
+    color: aquamarine;
+    margin-left: 50px;
+}
+
+/*.item1 {
+    grid-column: 1 ;
+    grid-row: 1/ span 2;
+}
+.item2 {
+    grid-column: 2;
+    grid-row: 1;
+}  
+.item3 {
+            grid-column: 3;
+            grid-row: 1;
+        }
+        .item4{
+            grid-column: 4 / span 5;
+            grid-row: 1;
+
+        }
+        .item5{
+            grid-column: 6;
+            grid-row:1;
+        }
+        .item6{
+            grid-column: 2;
+            grid-row: 2;
+
+        }
+        .item7{
+            grid-column: 3;
+            grid-row: 2;
+        }
+        .item8{
+            grid-column: 4;
+            grid-row:2;
+        }
+        .item9{
+            grid-column: 5;
+            grid-row: 2;
+        }
+        .item10{
+            grid-column: 6;
+            grid-row: 2;
+        }
+        */
+
+.frid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(192, 255, 234);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.wow{
+    grid-row-start: 1;
+    grid-row-end: end;
+}
+.wow{margin-left: 100px;}
+/*
+.tunisia{
+    background-color: rgb(177, 251, 226);
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+.wow{
+    grid-column: 1;
+    grid-row: 1 / span 5;
+}
+.kow{
+    grid-column: 3;
+    grid-row: 2 / span 3;
+}*/
+.bond{
+    background-color: white;
+    margin: 5px;
+    border-radius: 25px;
+    align-items: center;
+}
+.bkhour{
+    background-color: white;
+    margin: 5px;
+    border-radius: 25px;
+    align-items: center;
+
+}
+.lounba{
+    background-color: white;
+    margin: 5px;
+    border-radius: 25px;
+    align-items: center;
+   
+}
+.clav{
+    background-color: white;
+    margin: 5px;
+    border-radius: 25px;
+    align-items: center;
+ 
+}
